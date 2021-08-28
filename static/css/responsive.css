@@ -1,0 +1,114 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1120px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .slider_section {
+        padding-bottom: 90px;
+    }
+
+    .client_section .carousel-control-prev {
+        left: 15%;
+    }
+
+    .client_section .carousel-control-next {
+        right: 15%;
+    }
+}
+
+@media (max-width: 992px) {
+    .slider_section {
+        padding-bottom: 120px;
+    }
+
+    .info_section .row>div {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .slider_section .detail-box {
+        text-align: center;
+    }
+
+    .slider_section .carousel-control-prev {
+        top: 37%;
+        left: calc(50% - 50px);
+        transform: none;
+    }
+
+    .slider_section .carousel-control-next {
+        top: 37%;
+        right: calc(50% - 50px);
+        transform: none;
+    }
+
+    .slider_section .detail-box {
+        margin-bottom: 75px;
+    }
+
+    .client_section .carousel-control-prev {
+        left: 0;
+    }
+
+    .client_section .carousel-control-next {
+        right: 0;
+    }
+
+    .info_section .row>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .info_section .info_contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+
+    .slider_section .carousel-control-prev,
+    .slider_section .carousel-control-next {
+        display: none;
+    }
+
+    .slider_section .detail-box,
+    .slider_section .img-box {
+        margin-bottom: 45px;
+    }
+
+    .teacher_section {
+        background-size: cover;
+        background-position: center;
+        padding: 195px 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .client_section .carousel-control-prev,
+    .client_section .carousel-control-next {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}

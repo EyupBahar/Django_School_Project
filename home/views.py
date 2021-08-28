@@ -3,6 +3,7 @@ from .forms import ContactForm
 from .models import Teacher
 # Create your views here.
 
+
 def home(request):
     teacher = Teacher.objects.order_by('speciality').distinct()
 
@@ -20,6 +21,7 @@ def home(request):
         'teachers': teacher
     }
     return render(request, 'index.html', context)
+
 
 def about(request):
     return render(request, 'about.html')
